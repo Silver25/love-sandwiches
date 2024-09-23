@@ -30,3 +30,11 @@ The deployment terminal is set to 80 columns by 24 rows. That means that each li
 ---
 
 Happy coding!
+---
+
+### 1.) Install two additional dependencies
+In order to use our Google Sheets API, we're going to need to install two additional dependencies into our project.
+- The first is called google-auth, which will use our creds.json file
+to set up the authentication needed  to access our Google Cloud project.
+- The second is gspread, which is a library of code  that we will use to access and update data in our spreadsheet.
+Terminal command 'pip3 install gspread google-auth'
