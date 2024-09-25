@@ -90,6 +90,18 @@ def update_sales_worksheet(data):
     print("Sales worksheet updated successfully.\n")
 
 
-data = get_sales_data()
-sales_data = [int(num) for num in data]
-update_sales_worksheet(sales_data)
+def main():
+    """
+    It's common practice to wrap the main function calls of a program
+    within a function called main
+    Run all program functions
+    """
+    data = get_sales_data()
+    sales_data = [int(num) for num in data]
+    update_sales_worksheet(sales_data)
+
+
+print("Welcome to Love Sandwiches Data Automation")
+# in Python you can’t  call a function above 
+# where it is defined in the file
+main()
