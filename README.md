@@ -44,6 +44,7 @@ Terminal command 'pip3 install gspread google-auth'
 - Front page -> Create new app
 - App name + Europe -> Create app
 - Dashboard -> Settings tab
+- _Config Vars_ called `PORT`. Set this to `8000`
 - Config Vars -> Reveal Config Vars -> CREDS + creds.json code
 - Buildpacks -> Add buildpack -> Python + Node.js
 - Deploy tab -> Deployment method -> GitHub -> Connect to GitHub -> Authorize Heroku
