@@ -39,3 +39,16 @@ to set up the authentication needed  to access our Google Cloud project.
 - The second is gspread, which is a library of code  that we will use to access and update data in our spreadsheet.  
 
 Terminal command 'pip3 install gspread google-auth'
+
+### 2.) Heroku deployment
+- Front page -> Create new app
+- App name + Europe -> Create app
+- Dashboard -> Settings tab
+- Config Vars -> Reveal Config Vars -> CREDS + creds.json code
+- Buildpacks -> Add buildpack -> Python + Node.js
+- Deploy tab -> Deployment method -> GitHub -> Connect to GitHub -> Authorize Heroku
+  -> Popup window -> Sign in to GitHub -> Search for gitHub project
+- Manual deploy -> Deploy a GitHub branch -> Deploy Branch button
+- Receive code from GitHub -> Build main ...
+- Your app was successfully deployed. -> View button
+- https://lovesandwichestest-3933ba4021f6.herokuapp.com/
